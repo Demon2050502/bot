@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Функция для изменения пути к изображению в кнопке
     function updateThemeIcon(theme) {
         const iconPaths = {
-            light: './images/svg/theme_light.svg',
-            dark: './images/svg/theme_dark.svg'
+            light: '/bot/images/svg/theme_light.svg',
+            dark: '/bot/images/svg/theme_dark.svg'
         };
 
         // Изменяем путь к изображению
