@@ -344,10 +344,10 @@ header>div>div {
 
 .theme-menu {
     position: absolute;
-    display: none;
     min-width: 8rem;
+    display: none;
     border: 1px solid #000000;
-    background-color: hsl(var(--background-darker)/.9);
+    background-color: hsl(var(--background-darker)/.5);
     border-radius: calc(var(--radius) - 2px);
 }
 
@@ -379,7 +379,7 @@ header>div>div {
 
 .header-content-button-login>svg {
     padding-right: 0.5rem;
-    height: 1.2rem;
+    height: 1.5rem;
 }
 
 .menu-hidden {
